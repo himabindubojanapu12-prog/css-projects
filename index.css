@@ -1,0 +1,44 @@
+html,body{
+    padding: 0;
+    margin: 1em;
+
+
+}
+:root{
+    --ring1:black;
+    --ring2:blue;
+    --ring3:red;
+    --ring4:yellow;
+}
+.container,.ring{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ring{
+    border-radius: 50%;
+
+}
+.ring1{
+    height:200px;
+    width: 200px;
+    background: var(--ring1);
+    
+}
+.ring2{
+    height: 150px;
+    width:150px;
+    background:var(--ring2);
+}
+.ring3{
+    height: 100px;
+    width: 100px;
+    background:var(--ring3)
+}
+.ring4{
+    height: 50px;
+    width: 50px;
+    background: var(--ring4);
+}
